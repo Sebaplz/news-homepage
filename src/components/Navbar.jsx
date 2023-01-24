@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Navbar() {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
@@ -40,9 +40,17 @@ function Navbar() {
         </ul>
         <div onClick={handleNav} className="lg:hidden">
           {!nav ? (
-            <img src="/images/icon-menu-close.svg" alt="Imagen Menú Cerrar" />
+            <img
+              src="/images/icon-menu-close.svg"
+              alt="Imagen Menú Cerrar"
+              className="cursor-pointer"
+            />
           ) : (
-            <img src="/images/icon-menu.svg" alt="Imagen Menú" />
+            <img
+              src="/images/icon-menu.svg"
+              alt="Imagen Menú"
+              className="cursor-pointer"
+            />
           )}
         </div>
         <div
