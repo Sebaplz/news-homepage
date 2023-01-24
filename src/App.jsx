@@ -20,7 +20,7 @@ function App() {
           </p>
           <a
             href="#"
-            className="mt-5 w-44 bg-[#F15E50] py-3 px-7 uppercase tracking-widest text-white"
+            className="mt-5 w-44 bg-[#F15E50] py-3 px-7 uppercase tracking-widest text-white hover:bg-black"
           >
             read more
           </a>
@@ -28,27 +28,30 @@ function App() {
         <div className="bg-black p-10 text-white lg:col-span-1 lg:row-span-2">
           <h2 className="text-4xl font-bold text-[#E9AB53]">New</h2>
           <div className="my-6">
-            <h2 className="pb-1 text-xl font-bold">
+            <a href="#" className="text-xl font-bold hover:text-[#E9AB53]">
               Hydrogen VS Electric cars
-            </h2>
-            <p className="text-[#C5C6CE]">
+            </a>
+            <p className="mt-2 text-[#C5C6CE]">
               Will hydrogen-fueled cars ever catch up to EVs?
             </p>
           </div>
-          <div className="my-6 border-t border-[#C5C6CE]">
-            <h2 className="mt-5 pb-1 text-xl font-bold">
+          <div className="my-6 border-t border-[#C5C6CE] pt-5">
+            <a href="#" className="mt-5 text-xl font-bold hover:text-[#E9AB53]">
               The Downsides of AI Artistry
-            </h2>
-            <p className="text-[#C5C6CE]">
+            </a>
+            <p className="mt-2 text-[#C5C6CE]">
               What are the possible adverse effects of on-demand AI image
               generation?
             </p>
           </div>
-          <div className="my-6 border-t border-[#C5C6CE]">
-            <h2 className="mt-5 pb-1 text-xl font-bold">
+          <div className="my-6 border-t border-[#C5C6CE] pt-5">
+            <a
+              href="#"
+              className="mt-5  text-xl font-bold hover:text-[#E9AB53]"
+            >
               Is VC Funding Drying Up?
-            </h2>
-            <p className="text-[#C5C6CE]">
+            </a>
+            <p className="mt-2 text-[#C5C6CE]">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
             </p>
@@ -62,7 +65,9 @@ function App() {
           />
           <div className="flex flex-col justify-between px-5">
             <h2 className="text-4xl font-extrabold text-[#C5C6CE] ">01</h2>
-            <h3 className="text-xl font-extrabold">Reviving Retro PCs</h3>
+            <a href="#" className="text-xl font-extrabold hover:text-[#E9AB53]">
+              Reviving Retro PCs
+            </a>
             <p className="text-lg text-[#5D5F79]">
               What happens when old PCs are given modern upgrades?
             </p>
@@ -76,7 +81,9 @@ function App() {
           />
           <div className="flex flex-col justify-between px-5">
             <h2 className="text-4xl font-extrabold text-[#C5C6CE] ">02</h2>
-            <h3 className="text-xl font-extrabold">Top 10 Laptops of 2022</h3>
+            <a href="#" className="text-xl font-extrabold hover:text-[#E9AB53]">
+              Top 10 Laptops of 2022
+            </a>
             <p className="text-lg text-[#5D5F79]">
               Our best picks for various needs and budgets.
             </p>
@@ -90,7 +97,9 @@ function App() {
           />
           <div className="flex flex-col justify-between px-5">
             <h2 className="text-4xl font-extrabold text-[#C5C6CE] ">03</h2>
-            <h3 className="text-xl font-extrabold">The Growth of Gaming</h3>
+            <a href="#" className="text-xl font-extrabold hover:text-[#E9AB53]">
+              The Growth of Gaming
+            </a>
             <p className="text-lg text-[#5D5F79]">
               How the pandemic has sparked fresh opportunities.
             </p>
