@@ -59,7 +59,7 @@ function App() {
         </div>
         <div className="mt-10 flex">
           <img
-            src="/images/image-retro-pcs.jpg"
+            src="images/image-retro-pcs.jpg"
             alt="PC retro"
             className="w-28 lg:h-40"
           />
@@ -75,7 +75,7 @@ function App() {
         </div>
         <div className="mt-10 flex">
           <img
-            src="/images/image-top-laptops.jpg"
+            src="images/image-top-laptops.jpg"
             alt="PC retro"
             className="w-28 lg:h-40"
           />
@@ -91,7 +91,7 @@ function App() {
         </div>
         <div className="mt-10 flex">
           <img
-            src="/images/image-gaming-growth.jpg"
+            src="images/image-gaming-growth.jpg"
             alt="PC retro"
             className="w-28 lg:h-40"
           />

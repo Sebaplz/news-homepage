@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="m-5">
       <div className="flex items-center justify-between">
-        <img src="/images/logo.svg" alt="Logo" />
+        <img src="images/logo.svg" alt="Logo" />
         <ul className="hidden lg:flex">
           <li className="lg:mx-5">
             <a href="#" className="hover:text-[#E9AB53]">
@@ -41,13 +41,13 @@ function Navbar() {
         <div onClick={handleNav} className="lg:hidden">
           {!nav ? (
             <img
-              src="/images/icon-menu-close.svg"
+              src="images/icon-menu-close.svg"
               alt="Imagen Menú Cerrar"
               className="cursor-pointer"
             />
           ) : (
             <img
-              src="/images/icon-menu.svg"
+              src="images/icon-menu.svg"
               alt="Imagen Menú"
               className="cursor-pointer"
             />
